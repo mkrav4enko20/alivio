@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1370px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container-wide {
+    width: 100%;
+    max-width: 1510px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #01996D;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+
+ .button_large {
+     padding-bottom: 20px;
+     padding-top: 20px;
+ }

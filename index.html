@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dev.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/">
+                <img src="./img/logo.png">
+            </a>
+            <nav class="header__navigation">
+                <a class="header__text" href="#steps">Why Alivio</a>
+                <a class="header__text" href="#video">Solutions</a>
+                <a class="header__text" href="#product">Community</a>
+                <a class="header__text" href="#">Pricing</a>
+            </nav>
+            <span class="header__text header__sign" data-modal="#sign-in">Sign in</span>
+            <button class="button" data-modal="#start-trial">Start Trial</button>
+            <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <nav class="navigation">
+        <a class="navigation__link" href="#steps">Why Alivio</a>
+        <a class="navigation__link" href="#video">Solutions</a>
+        <a class="navigation__link" href="#product">Community</a>
+        <a class="navigation__link" href="#">Pricing</a>
+        <span class="navigation__close">
+            <span></span>
+            <span></span>
+        </span>
+    </nav>
+    <section class="main">
+        <div class="container">
+            <h1 class="main__title">Be aware, Manage well.</h1>
+            <p class="main__text">Everyone experiences stress in different ways.
+            Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+            </p>
+            <button data-modal="#find-your-way" class="button button_large">Find Your Way</button>
+        </div>
+    </section>
+    <section id="steps" class="steps container">
+        <h2 class="steps__title">How it works</h2>
+        <div class="steps__block">
+            <h3 class="steps__subtitle">Understand & Release <br> 
+                the stress in 3 steps</h3>
+            <p class="steps__text">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+        </div>
+        <div class="steps__group">
+            <div class="steps__step steps__step_1">
+                <div class="steps__header">
+                    <span class="steps__number">01</span>
+                    <h4 class="steps__name">Personalize</h4>
+                </div>
+                <p class="steps__description" >Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+                <img src="./img/step1.png" alt="step1">
+            </div>
+            <div class="steps__step steps__step_2">
+                <div class="steps__header">
+                <span class="steps__number">02</span>
+                <h4 class="steps__name">Write & Understand</h4>
+            </div>
+                <p class="steps__description" >Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+                <img src="./img/step2.png" alt="step2">
+            </div>
+            <div class="steps__step steps__step_3">
+                <div class="steps__header">
+                <span class="steps__number">03</span>
+                <h4 class="steps__name">Alivio!</h4>
+                </div>
+                <p class="steps__description" >Now you are aware, and have a way to manage and overcome your own stress.
+                    What are you waiting for? Alivio today!</p>
+                <img src="./img/step3.png" alt="step3">
+            </div>
+        </div>
+    </section>
+    <section id="video" class="video">
+        <div class="video__container container-wide">
+            <div class="video__blog">
+                <h2 class="video__title">Let's hear about Kayla's success story</h2>
+                <p class="video__text">See how well Alivio works in a real customer’s life. </p>
+                <button class="button">Let’s get started</button>
+            </div>
+            <div class="video__movie">
+                <img src="./img/video.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="product" class="product">
+        <div class="product__container container">
+            <div class="product__img">
+                <img src="./img/product.png" alt="">
+                <img class="product__card" src="./img/card.png"alt="">
+            </div>
+            <div class="product__blog">
+                <h2 class="product__description">Our product</h2>
+                <h3 class="product__title">You tell us your stress, We make your diary</h3>
+                <p class="product__text">Everyone experiences it, and in different ways.<br> Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                <button data-modal="#find-your-way" class="button">Find Your Way</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
+            <a class="footer__title" href="#">Alivio</a>
+            <a class="footer__text" href="#steps">Why Alivio</a>
+            <a class="footer__text" href="#video">Solutions</a>
+            <a class="footer__text" href="#product">Community</a>
+            <a class="footer__text" href="#">Pricing</a>
+        </div>
+    </footer>
+    <div class="modal__overlay">
+        <div id="start-trial" class="modal">
+            <h2>Start trial</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, veniam.</p>
+            <form>
+                <input type="tel" placeholder="Phone number">
+                <button class="button">Submit</button>
+            </form>
+            <span class="modal__close">
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+
+        <div id="sign-in" class="modal">
+            <h2>Sign in</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, veniam.</p>
+            <form>
+                <input type="text" placeholder="Login">
+                <input type="password" placeholder="Password">
+                <button class="button">Submit</button>
+            </form>
+            <span class="modal__close">
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+
+        <div id="find-your-way" class="modal modal__find">
+            <h2>find your way</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, veniam.</p>
+            <form>
+                <input type="text" placeholder="Login">
+                <input type="password" placeholder="Password">
+                <button class="button">Submit</button>
+            </form>
+            <span class="modal__close">
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/lesson.js"></script>
+</body>
+</html>

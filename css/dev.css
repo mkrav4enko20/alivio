@@ -1,0 +1,136 @@
+@media screen and (max-width: 1024px) {
+    .header__navigation {
+        display: none;
+    }
+    .header__burger {
+        display: flex;
+    }
+    .header__sign {
+        margin-left: auto;
+    }
+
+    .steps__block {
+        display: block;
+    }
+
+    .steps__text {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+    .steps__group {
+        /* display: block; */
+        flex-direction: column;
+    }
+    .steps__step_1,
+    .steps__step_2,
+    .steps__step_3 {
+        margin-top: 0;
+    }
+    .steps__step + .steps__step {
+        margin-left: 0;
+    }
+    .steps__step {
+        text-align: center;
+    }
+    .steps__header {
+        text-align: left;
+    }
+    .video {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .video__container {
+        display: block;
+    }
+    .video__movie {
+        margin-top: 1em;
+    }
+    .product__container  {
+        display: block;
+    }
+    .product__img {
+        width: auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    .product__blog {
+        margin-left: 0;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .footer__container {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__sign {
+        display: none;
+    }
+    .main {
+        padding-top: 40px;
+    }
+    .main__title {
+        width: auto;
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .main__text {
+        width: auto;
+    }
+    .steps__subtitle {
+        font-size: 25px;
+    }
+   .main__text {
+       color: #424242
+   }
+   .steps__title {
+       text-align: center;
+       padding-top: 40px;
+   }
+   .steps__block, .video__blog, .container{
+       text-align: center;
+   }
+   .steps {
+       margin-top: 0;
+   }
+    .video__title {
+        font-size: 32px;
+ }
+    .product__title {
+        font-size: 32px;
+ }
+    .product, .footer{
+        padding-bottom: 40px;
+        padding-top: 40px;
+ }
+    .footer__text{ 
+        margin-top: 40px;
+ }
+    .product__card {
+        position: static;
+ }
+    .product__img img:first-child {
+        display: none;
+ }
+    .product__img {
+        padding-bottom: 0;
+ }
+    .button {
+        padding: 14px 25px;
+ }
+ .modal {
+     width: 80%;
+ }
+    .modal form{
+        flex-direction: column;
+    }
+    .modal input,
+    .modal__find input:first-child {
+        margin-right: 0;
+        margin-bottom: 16px;
+        height: 50px;
+        box-sizing: border-box;
+    }
+}
+ 
